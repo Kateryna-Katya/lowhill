@@ -14,3 +14,13 @@ h2{
     color: #151515;
   margin-bottom: 30px;
 }
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 60px;
+      letter-spacing: -0.04em;
+      margin-bottom: 63px;
+  }
+}
