@@ -79,3 +79,110 @@ font-family: "Inter", sans-serif;
     gap: 90px;
  }
 }
+/*  A classic hill climbing challenge. */
+.classic-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.classic-text-wrapper{
+    width: 331px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+}
+@media only screen and (min-width: 1440px) {
+.classic-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 38px;
+    }
+
+    .classic-text-wrapper {
+        width: 581px;
+    }
+}
+/*  Balance speed and control. */
+.balance-section{
+background: linear-gradient(135deg, rgba(162, 201, 164, 0.3) 0%, rgba(102, 161, 158, 0.3) 100%);
+}
+.balance-title{
+    margin-bottom: 10px;
+}
+.balance-text{
+    text-align: center;
+    width: 299px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.balance-list{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    gap: 10px;
+}
+.balance-item{
+border-radius: 24px;
+    padding: 32px;
+    width: 331px;
+    height: 64px;
+box-shadow: 0 4px 6px -4px rgba(229, 231, 235, 0.6), 0 10px 15px -3px rgba(229, 231, 235, 0.6);
+    background: #fff;
+    display: flex;
+align-items: center;
+gap: 20px;
+}
+.balance-item img{
+    width: 50px;
+        height: 49px;        
+}
+.balance-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media only screen and (min-width: 1440px) {
+.balance-list {
+        margin-top: 50px;
+        margin-bottom: 43px;
+}
+.balance-item{
+    width: 741px;
+        height: 90px;
+gap: 32px;
+}
+.balance-item img {
+width: 64px;
+    height: 64px;
+}
+.balance-text{
+    width: 1042px;
+}
+}
+/* Choose the ride that fits your style.  */
+.choose-title{
+    width: 290px;
+    letter-spacing: -0.08em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.choose-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 346px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+  .choose-title{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .choose-text-wrapper{
+    width: 840px;
+  }
+}
