@@ -19,6 +19,9 @@ text-align: left;
 .policy-container{
     padding-bottom: 200px;
 }
+.terms-container{
+    padding-bottom: 100px;
+}
 .privacy-title {
 font-family: "Nunito", sans-serif;
     font-weight: 900;
